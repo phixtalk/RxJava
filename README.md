@@ -3,14 +3,14 @@
 In general, RxJava is all about Observables and Observers, emitting data and viewing data
 
 Its basically an evolution of AsynTasks, that allows us to perform tasks on the background thread, without
-affecting or freeze the UI thread.
+affecting or freezing the UI thread.
 
-An Observable is component that produces some data (an example is a newspaper company that publishes newspaper articles daily)
+An Observable is a component that produces some data (an example is a newspaper company that publishes newspaper articles daily)
 
 An Observer is some function that subscribes to an observable to get the data it emits (an example is a person that is subscribing
 to the newsletter which the newspaper company produces)
 
-RXJava Operators follows the steps below
+RXJava Transactions follows the steps below
 
 1.Create an Observable
 2.Apply an Operator to the observable
