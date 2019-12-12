@@ -19,10 +19,22 @@ RXJava Transactions follows the steps below
 5.Subscribe an Observer to the Observable and view the results
 
 
+Operators:
+The purpose of an operator is to take a given set of data and transform it into an observable data set.
+Some operators can also manipulate the data objects and transform them further
 
+Examples of some Operators that can transform data into an observable
+create, just, fromArray, fromIterable
 fromIterable operation takes a list of objects and turns them into an observable
 
+Examples of some Operators that can manipulate data and transform them further
+Map, SwitchMap, FlatMap...
 
+A Map operator Applies a function to each emitted item.
+It transforms each emitted item by applying a function to it.
+
+For example, we will map a Task object to a string.
+The map object will take a function an input, and apply that function to every data been emitted
 
 
 
